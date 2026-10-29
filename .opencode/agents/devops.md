@@ -1,7 +1,6 @@
 ---
 description: "Sets up and fixes how code is built, tested, shipped and run: Dockerfiles, CI pipelines, infrastructure files, deployments, logs and alerts."
 mode: all
-model: axforge/axforge-code
 permission:
   bash: ask
 ---

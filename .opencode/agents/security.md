@@ -1,7 +1,6 @@
 ---
 description: "Reviews code and configuration for security problems: secrets, injection, authentication and access, dependencies and unsafe defaults. Reports each finding with its fix and changes nothing itself."
 mode: all
-model: axforge/axforge-code
 permission:
   edit: deny
   bash: ask

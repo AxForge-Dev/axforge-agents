@@ -1,8 +1,7 @@
 # AxForge agents
 
 Five ready agents for [Claude Code](https://code.claude.com) and [OpenCode](https://opencode.ai), each running on
-`axforge-code`, the [AxForge](https://axforge.ai) API's best coding model. When a better coding model fits our
-machines, the name moves to it: the agents stay the same.
+the model your tool is set to on the [AxForge](https://axforge.ai) API: Qwen, MiMo or GLM.
 
 | Agent | What it does |
 |---|---|
@@ -26,12 +25,12 @@ for OpenCode.
 
 **Claude Code.** Copy the folder `.claude/agents/` into your project, or into `~/.claude/agents/` (on Windows
 `%USERPROFILE%\.claude\agents\`) to have them in every project. Then ask for one by name ("Use the backend agent to
-add a health route") or type `@` and pick it. Each runs on your main model (`model: inherit`), which the Connect
-page sets to `axforge-code`.
+add a health route") or type `@` and pick it. Each runs on your main model (`model: inherit`): Qwen, MiMo or
+GLM, the one your tool's guide set.
 
 **OpenCode.** Copy the folder `.opencode/agents/` into your project, or into `~/.config/opencode/agents/` to have
 them in every project. Press Tab to switch to one, or mention it (`@backend add a health route`). Each runs on
-`axforge/axforge-code`: the AxForge provider the Connect page puts in your `opencode.json`.
+the model your `opencode.json` starts with: Qwen, MiMo or GLM from the AxForge provider.
 
 ## Make them yours
 
